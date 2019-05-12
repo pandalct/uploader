@@ -169,7 +169,7 @@
     "aws-sdk": "2.450.0",
     "babel-core": "6.26.3",
     "babel-eslint": "10.0.1",
-    "babel-loader": "7.1.5",
+    "babel-loader": "8.0.6",
     "babel-plugin-add-module-exports": "1.0.0",
     "babel-plugin-dev-expression": "0.2.1",
     "babel-plugin-module-resolver": "3.2.0",
