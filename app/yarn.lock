@@ -755,13 +755,13 @@ isobject@^3.0.0, isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
-keytar@4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/keytar/-/keytar-4.2.1.tgz#8a06a6577fdf6373e0aa6b112277e63dec77fd12"
-  integrity sha1-igamV3/fY3PgqmsRInfmPex3/RI=
+keytar@4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/keytar/-/keytar-4.7.0.tgz#992f646ace0862ee72a513a9f6cf7c21ef97078f"
+  integrity sha512-0hLlRRkhdR0068fVQo21hnIndGvacsh9PtAHGAPMPzxFjJwP8idAkVAcbdb1P5B+gterCBa3+4hxL0NPMDlZtw==
   dependencies:
-    nan "2.8.0"
-    prebuild-install "^2.4.1"
+    nan "2.13.2"
+    prebuild-install "5.3.0"
 
 kind-of@^3.0.2, kind-of@^3.0.3:
   version "3.2.2"
@@ -895,10 +895,10 @@ mute-stream@0.0.7:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
   integrity sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s=
 
-nan@2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.8.0.tgz#ed715f3fe9de02b57a5e6252d90a96675e1f085a"
-  integrity sha1-7XFfP+neArV6XmJS2QqWZ14fCFo=
+nan@2.13.2:
+  version "2.13.2"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.13.2.tgz#f51dc7ae66ba7d5d55e1e6d4d8092e802c9aefe7"
+  integrity sha512-TghvYc72wlMGMVMluVo9WRJc0mB8KxxF/gZ4YYFy7V2ZQX9l7rgbPg7vjS9mt6U5HXODVFVI2bOduCzwOMv/lw==
 
 nan@^2.10.0, nan@^2.11.0, nan@^2.12.1, nan@^2.8.0, nan@^2.9.2:
   version "2.12.1"
@@ -928,6 +928,13 @@ node-abi@^2.2.0:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-2.5.1.tgz#bb17288fc3b2f68fea0ed9897c66979fd754ed47"
   integrity sha512-oDbFc7vCFx0RWWCweTer3hFm1u+e60N5FtGnmRV6QqvgATGFH/XRR6vqWIeBVosCYCqt6YdIr2L0exLZuEdVcQ==
+  dependencies:
+    semver "^5.4.1"
+
+node-abi@^2.7.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-2.8.0.tgz#bd2e88dbe6a6871e6dd08553e0605779325737ec"
+  integrity sha512-1/aa2clS0pue0HjckL62CsbhWWU35HARvBDXcJtYKbYR7LnIutmpxmXbuDMV9kEviD2lP/wACOgWmmwljghHyQ==
   dependencies:
     semver "^5.4.1"
 
@@ -1058,22 +1065,23 @@ pointer-symbol@^1.0.0:
   resolved "https://registry.yarnpkg.com/pointer-symbol/-/pointer-symbol-1.0.0.tgz#60f9110204ea7a929b62644a21315543cbb3d447"
   integrity sha1-YPkRAgTqepKbYmRKITFVQ8uz1Ec=
 
-prebuild-install@^2.4.1:
-  version "2.5.3"
-  resolved "https://registry.yarnpkg.com/prebuild-install/-/prebuild-install-2.5.3.tgz#9f65f242782d370296353710e9bc843490c19f69"
-  integrity sha512-/rI36cN2g7vDQnKWN8Uzupi++KjyqS9iS+/fpwG4Ea8d0Pip0PQ5bshUNzVwt+/D2MRfhVAplYMMvWLqWrCF/g==
+prebuild-install@5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/prebuild-install/-/prebuild-install-5.3.0.tgz#58b4d8344e03590990931ee088dd5401b03004c8"
+  integrity sha512-aaLVANlj4HgZweKttFNUVNRxDukytuIuxeK2boIMHjagNJCiVKWFsKF4tCE3ql3GbrD2tExPQ7/pwtEJcHNZeg==
   dependencies:
     detect-libc "^1.0.3"
-    expand-template "^1.0.2"
+    expand-template "^2.0.3"
     github-from-package "0.0.0"
     minimist "^1.2.0"
     mkdirp "^0.5.1"
-    node-abi "^2.2.0"
+    napi-build-utils "^1.0.1"
+    node-abi "^2.7.0"
     noop-logger "^0.1.1"
     npmlog "^4.0.1"
     os-homedir "^1.0.1"
     pump "^2.0.1"
-    rc "^1.1.6"
+    rc "^1.2.7"
     simple-get "^2.7.0"
     tar-fs "^1.13.0"
     tunnel-agent "^0.6.0"
