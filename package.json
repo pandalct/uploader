@@ -217,7 +217,7 @@
     "express": "4.17.1",
     "extract-text-webpack-plugin": "3.0.2",
     "fbjs-scripts": "1.2.0",
-    "file-loader": "1.1.11",
+    "file-loader": "4.1.0",
     "flux-standard-action": "2.1.0",
     "ftp": "0.3.10",
     "gitbook-cli": "2.3.2",
