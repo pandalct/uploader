@@ -240,7 +240,7 @@
     "eslint-plugin-react": "7.16.0",
     "express": "4.17.1",
     "fbjs-scripts": "1.2.0",
-    "file-loader": "4.2.0",
+    "file-loader": "5.0.2",
     "flux-standard-action": "2.1.1",
     "ftp": "0.3.10",
     "gitbook-cli": "2.3.2",
